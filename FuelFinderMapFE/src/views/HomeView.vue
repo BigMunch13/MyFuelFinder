@@ -1,9 +1,13 @@
-<script setup>
-import TheWelcome from '../components/TheWelcome.vue'
-</script>
-
 <template>
+  <div class="Home">
+    <PageHeader />
+    <Map />
+  </div>
   <main>
-    <TheWelcome />
   </main>
 </template>
+
+<script setup>
+import PageHeader from '@/components/PageHeader.vue'
+import Map from '@/components/Map.vue'
+</script>
